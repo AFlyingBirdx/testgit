@@ -67,7 +67,17 @@
 
     </div>
 
+    <script>
+                        
+        const itemList = document.querySelectorAll('.item')
+        
+        itemList.forEach(function(item){
+                item.addEventListener('click',function(){
+                    console.log(item.textContent)
+                })
+        })
 
+    </script>
 </body>
 
 </html>
